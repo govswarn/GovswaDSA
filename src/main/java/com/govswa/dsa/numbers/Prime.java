@@ -1,6 +1,6 @@
 package com.govswa.dsa.numbers;
 
-public class Prime_6 {
+public class Prime {
 
     public static boolean isPrimeBrute(int n) {
         for (int i = 2; i < n; i++) {

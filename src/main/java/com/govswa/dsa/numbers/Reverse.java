@@ -1,6 +1,6 @@
 package com.govswa.dsa.numbers;
 
-public class Reverse_2 {
+public class Reverse {
 
     public static int reverse(int n) {
         int rev = 0;

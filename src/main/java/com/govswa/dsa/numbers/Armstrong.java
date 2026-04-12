@@ -1,6 +1,6 @@
 package com.govswa.dsa.numbers;
 
-public class Armstrong_4 {
+public class Armstrong {
 
     public static boolean isArmstrong(int n) {
         int arm = 0;

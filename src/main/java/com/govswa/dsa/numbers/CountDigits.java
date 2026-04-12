@@ -1,6 +1,6 @@
 package com.govswa.dsa.numbers;
 
-public class CountDigits_1 {
+public class CountDigits {
 
     public static int countDigits(int n) {
         int c = 0;

@@ -1,6 +1,6 @@
 package com.govswa.dsa.numbers;
 
-public class GCD_7 {
+public class GCD {
 
     public static int gcdBrute(int a, int b) {
         int gcd = 1;

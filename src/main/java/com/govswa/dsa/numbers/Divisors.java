@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Divisors_5 {
+public class Divisors {
 
     public static List<Integer> divisorsBrute(int n) {
         List<Integer> divisors = new ArrayList<>();

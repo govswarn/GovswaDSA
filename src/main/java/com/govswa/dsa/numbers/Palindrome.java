@@ -1,9 +1,9 @@
 package com.govswa.dsa.numbers;
 
-public class Palindrome_3 {
+public class Palindrome {
 
     public static boolean isPalindrome(int n){
-        return Reverse_2.reverse(n) == n;
+        return Reverse.reverse(n) == n;
     }
 
     public static void main(String[] args) {
