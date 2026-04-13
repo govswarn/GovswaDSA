@@ -6,8 +6,6 @@ public class Fibonacci {
         return n <= 1 ? n : fibonacci(n - 1) + fibonacci(n - 2);
     }
 
-
-
     public static void main(String[] args) {
         int n = 10;
         System.out.println("Fibonacci series up to " + n + ":");
