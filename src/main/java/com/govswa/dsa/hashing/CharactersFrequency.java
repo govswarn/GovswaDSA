@@ -19,7 +19,8 @@ public class CharactersFrequency {
         }
     }
 
-    private static final int[] hashAlpha = new int[26]; //a-z --> 97-122, 0 - a, 1 - b, 2 - c...
+    private static final int[] hashAlpha = new int[26]; 
+    //a-z --> 97-122, 0 - a, 1 - b, 2 - c...
 
     public static void frequency_2(String s) {
         for (int i = 0; i < s.length(); i++) {
