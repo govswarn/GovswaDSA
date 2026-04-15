@@ -14,11 +14,11 @@ public class ReverseArray {
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5};
         reverse(a);
-        PrintArray.print(a, 0, a.length);
+        PrintArray.print(a);
 
         System.out.println();
         int[] a2 = {1, 2, 3, 4, 5, 6};
         reverse(a2);
-        PrintArray.print(a2, 0, a2.length);
+        PrintArray.print(a2);
     }
 }
