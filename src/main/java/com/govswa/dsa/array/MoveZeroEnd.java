@@ -52,5 +52,11 @@ public class MoveZeroEnd {
         int[] a1 = {1, 0, 2, 3, 0, 4, 0, 1};
         moveZeroEnd(a1);
         PrintArray.print(a1);
+
+        System.out.println();
+        int[] a2 = {1, 2, 0, 1, 0, 4, 0};
+        moveZeroEnd(a2);
+        PrintArray.print(a2);
+
     }
 }
