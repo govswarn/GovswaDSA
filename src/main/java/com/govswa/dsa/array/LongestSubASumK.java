@@ -47,6 +47,7 @@ public class LongestSubASumK {
     }
 
     //works only for positive numbers in array
+    //sliding window approach
     public static int longestSubArray(int[] a, int k) {
         int longest = 0;
         int n = a.length;
