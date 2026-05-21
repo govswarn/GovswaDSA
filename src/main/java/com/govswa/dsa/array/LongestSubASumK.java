@@ -49,7 +49,24 @@ public class LongestSubASumK {
     //works only for positive numbers in array
     public static int longestSubArray(int[] a, int k) {
         int longest = 0;
+        int n = a.length;
+        int sum = a[0];
+        int left = 0, right = 0;
+        while (right < n) {
+            //first make window correct and then check for longest
+            while (left <= right && sum > k) {
+                sum -= a[left];
+                left++;
+            }
+            if (sum == k) {
+                longest = Math.max(longest, right - left + 1);
+            }
 
+            right++;
+            if (right < n) {
+                sum += a[right];
+            }
+        }
         return longest;
     }
 
@@ -66,8 +83,13 @@ public class LongestSubASumK {
 
         System.out.println("-------------------------------------");
         System.out.println(longestSubArrayBetter(a1, 15));
-        System.out.println(longestSubArrayBetter(a2, 6));
         System.out.println(longestSubArrayBetter(a3, 15));
         System.out.println(longestSubArrayBetter(a4, 3));
+
+        System.out.println("-------------------------------------");
+        System.out.println(longestSubArray(a1, 15));
+        System.out.println(longestSubArray(a2, 6));
+        System.out.println(longestSubArray(a3, 15));
+        System.out.println(longestSubArray(a4, 3));
     }
 }
