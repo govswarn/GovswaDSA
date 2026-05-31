@@ -3,7 +3,7 @@ package com.govswa.dsa.array;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SubarraysSumK {
+public class CountSubarraysSumK {
 
     public static int subarraysSumKBrute(int[] a, int k) {
         int count = 0;
